@@ -59,9 +59,10 @@
 		},
 		"eclipse_compat": {
 			"type": "bool",
-			"name": "Eclipse Compat (Read Info)",
-			"description": "Toggles eclipse integration. <cr>REQUIRES RESTART!</c>",
-			"default": true
+			"name": "Eclipse Compat",
+			"description": "Toggles integration with the mod eclipse. <cr>REQUIRES RESTART!</c>",
+			"default": true,
+			"requires-restart": true
 		}
 	},
 	"gd": {
