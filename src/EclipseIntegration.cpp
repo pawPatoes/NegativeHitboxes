@@ -16,7 +16,7 @@ $on_mod(Loaded) {
 
     if (!loader->isModLoaded("eclipse.eclipse-menu"))
         return;
-    if (!mod->getSettingValue<bool>("eclipse_compat"))
+    if (!mod->getSettingValue<bool>("eclipse-compat"))
         return;
     
     loader->queueInMainThread([]() {
