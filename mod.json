@@ -56,6 +56,12 @@
 			"name": "Voicelines",
 			"description": "If enabled, plays a voiceline every time you enter a level.",
 			"default": true
+		},
+		"eclipse_compat": {
+			"type": "bool",
+			"name": "Eclipse Compat",
+			"description": "Toggles eclipse integration.",
+			"default": true
 		}
 	},
 	"gd": {
