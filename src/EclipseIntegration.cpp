@@ -16,7 +16,9 @@ $on_mod(Loaded) {
 
     if (!loader->isModLoaded("eclipse.eclipse-menu"))
         return;
-
+    if (!mod->getSettingValue<bool>("eclipse_compat"))
+        return;
+    
     loader->queueInMainThread([]() {
         eclipse::modules::registerCheat("Negative Hitboxes", []() {
             return NegativeHitboxes::Utils::isModEnabled();
