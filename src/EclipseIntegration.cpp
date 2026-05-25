@@ -10,7 +10,7 @@ using namespace geode::prelude;
 inline void updateSafeModeLabel() {
     eclipse::label::setVariable("nhSafeMode", NegativeHitboxes::Utils::isSafeModeEnabled());
 }
-
+auto mod = Mod::get();
 $on_mod(Loaded) {
     auto loader = Loader::get();
 
