@@ -59,8 +59,8 @@
 		},
 		"eclipse_compat": {
 			"type": "bool",
-			"name": "Eclipse Compat",
-			"description": "Toggles eclipse integration.",
+			"name": "Eclipse Compat (Read Info)",
+			"description": "Toggles eclipse integration. <cr>REQUIRES RESTART!</c>",
 			"default": true
 		}
 	},
