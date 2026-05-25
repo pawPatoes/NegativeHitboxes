@@ -55,9 +55,10 @@
 			"type": "bool",
 			"name": "Voicelines",
 			"description": "If enabled, plays a voiceline every time you enter a level.",
-			"default": true
+			"default": true,
+			"enable-if": "enable-mod"
 		},
-		"eclipse_compat": {
+		"eclipse-compat": {
 			"type": "bool",
 			"name": "Eclipse Compat",
 			"description": "Toggles integration with the mod eclipse. <cr>REQUIRES RESTART!</c>",
